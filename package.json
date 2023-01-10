@@ -1,0 +1,27 @@
+{
+  "name": "202301-w1ch2-lluis-filella-alex-navarro-sergi-fontal",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "prebuild:dev": "rm -rf dist",
+    "buld:dev": "rimraf dist && parcel src/index.html",
+    "build": "rimraf dist && parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfilella97/202301-w1ch2-lluis-filella-alex-navarro-sergi-fontal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfilella97/202301-w1ch2-lluis-filella-alex-navarro-sergi-fontal/issues"
+  },
+  "homepage": "https://github.com/lfilella97/202301-w1ch2-lluis-filella-alex-navarro-sergi-fontal#readme",
+  "dependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^3.0.2"
+  }
+}
