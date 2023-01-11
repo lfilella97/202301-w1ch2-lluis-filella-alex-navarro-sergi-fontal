@@ -20,6 +20,38 @@
       </ul>
     </nav>
   </header>
+  <main>
+    <h2>Ponte en contacto con nosotros</h2>
+    <form>
+      <p>Los campos requeridos están marcados con <span aria-label="requerido">*</span>.</p>
+      <fieldset>
+        <legend>Acerca de ti</legend>
+        <p>
+          <label>
+            Nombre:
+            <input type="text" name="nombre" placeholder="Introduce tu nombre" aria-label="Nombre">
+          </label>
+        </p>
+        <p>
+          <label>
+            E-mail:<span aria-label="requerido">*</span>
+            <input type="email" name="email" placeholder="Introduce tu e-mail" aria-label="E-mail" required>
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Cuéntame más...</legend>
+        <p>
+          <textarea name="comentarios" placeholder="Comentario..." cols="80" rows="10"></textarea>
+        </p>
+      </fieldset>
+      <fieldset>
+        <p>
+          <button type="submit">Enviar</button>
+        </p>
+      </fieldset>
+    </form>
+  </main>
 
 </body>
 
