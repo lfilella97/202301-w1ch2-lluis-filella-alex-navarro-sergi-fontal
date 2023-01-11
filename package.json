@@ -5,7 +5,7 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "prebuild:dev": "rm -rf dist",
-    "buld:dev": "rimraf dist && parcel src/index.html",
+    "build:dev": "rimraf dist && parcel src/index.html",
     "build": "rimraf dist && parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
